@@ -2,8 +2,6 @@ import React, { useCallback, useRef, useState } from "react";
 import TodoTemplate from "./components/Todo/TodoTemplate"
 import TodoInsert from "./components/Insert/TodoInsert";
 import TodoList from "./components/list/TodoList";
-// import FinishTemplate from "./components/Finish/FinishTemplate"
-
 const App = () => {
   const [todos, setTodos] = useState([
     {

@@ -1,6 +1,5 @@
 import React from "react";
 import "./TodoTemplate.scss";
-import FinishTemplate from "./Finish/FinishTemplate";
 
 const TodoTemplate = ({children}) =>{
     return(
